@@ -40,13 +40,18 @@
   <ItemGroup>
     <Compile Include="Builder\MapBuilder.cs" />
     <Compile Include="Controller\GameController.cs" />
-    <Compile Include="Model\Cart.cs" />
+    <Compile Include="Model\Game.cs" />
     <Compile Include="Model\Map.cs" />
+    <Compile Include="Model\Movable.cs" />
+    <Compile Include="Model\Movables\Boat.cs" />
+    <Compile Include="Model\Movables\Cart.cs" />
     <Compile Include="Model\Program.cs" />
+    <Compile Include="Model\Tile.cs" />
+    <Compile Include="Model\Tiles\Empty.cs" />
+    <Compile Include="Model\Tiles\Rail.cs" />
+    <Compile Include="Model\Tiles\Water.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="View" />
+    <Compile Include="View\MainView.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

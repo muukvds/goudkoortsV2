@@ -1,6 +1,6 @@
 namespace GoudKoortsV2
 {
-    public class Cart
+    public class Boat : Movable
     {
         
     }
